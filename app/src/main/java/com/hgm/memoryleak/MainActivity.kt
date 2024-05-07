@@ -18,10 +18,10 @@ class MainActivity : ComponentActivity() {
             setContent {
                   MemoryLeakTheme {
                         Box(
-                            modifier = Modifier.fillMaxSize(),
-                            contentAlignment = Alignment.Center
+                              modifier = Modifier.fillMaxSize(),
+                              contentAlignment = Alignment.Center
                         ) {
-                            Text(text = "MainActivity")
+                              Text(text = "MainActivity")
                         }
                   }
             }
